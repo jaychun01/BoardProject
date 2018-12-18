@@ -10,8 +10,8 @@ Sign up panel and board are added. Also manager account has exporting function w
 ## Before start
 Add all jar file from the root folder into java build path.  
 Make guest account with follwing id and password into your sql server.  
-id: guest
-pwd: 00001111
+-id: guest  
+-pwd: 00001111  
 Change directory in memberList.java line 190 to directory where you want to export excel file.
 
 ## Functions
