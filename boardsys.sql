@@ -33,7 +33,7 @@ CREATE TABLE `tb_board` (
   PRIMARY KEY (`num`),
   KEY `id` (`id`),
   CONSTRAINT `tb_board_ibfk_1` FOREIGN KEY (`id`) REFERENCES `tb_member` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -42,7 +42,6 @@ CREATE TABLE `tb_board` (
 
 LOCK TABLES `tb_board` WRITE;
 /*!40000 ALTER TABLE `tb_board` DISABLE KEYS */;
-INSERT INTO `tb_board` VALUES (1,'[공지]','공지','manager','2018-12-13',6,13),(2,'게시판 초기화 됐나요??','왜죠??','world0584','2018-12-13',2,7);
 /*!40000 ALTER TABLE `tb_board` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -74,7 +73,7 @@ CREATE TABLE `tb_member` (
 
 LOCK TABLES `tb_member` WRITE;
 /*!40000 ALTER TABLE `tb_member` DISABLE KEYS */;
-INSERT INTO `tb_member` VALUES ('manager','manager',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),('world0584','eotjwnd1','천재관','010-9001-0584','경산 조영동','19930901','학생','M','jaychun01@naver.com','3점슛!');
+INSERT INTO `tb_member` VALUES ('manager','manager',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `tb_member` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -102,7 +101,6 @@ CREATE TABLE `tb_reccheck` (
 
 LOCK TABLES `tb_reccheck` WRITE;
 /*!40000 ALTER TABLE `tb_reccheck` DISABLE KEYS */;
-INSERT INTO `tb_reccheck` VALUES ('world0584',1,1),('world0584',2,1);
 /*!40000 ALTER TABLE `tb_reccheck` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -123,4 +121,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-12-13 17:06:49
+-- Dump completed on 2018-12-18 17:14:55
