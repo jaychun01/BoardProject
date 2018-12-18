@@ -14,7 +14,7 @@ id: guest
 pwd: 00001111
 Change directory in memberList.java line 190 to directory where you want to export excel file.
 
-## Preview
+## Functions
 ### 1. **Sign in**   
 ![image](https://user-images.githubusercontent.com/36698150/50143180-4cc61500-02ef-11e9-873a-3068ac8ade9c.png)  
 User can sign up and sign in here.  
@@ -49,3 +49,6 @@ User can recommend the post, and the count will automatically increase. Recommen
 ![image](https://user-images.githubusercontent.com/36698150/50145097-176ff600-02f4-11e9-8b7d-30d93fc458f8.png)  
 Database is built by MySQL. Table schema is on the above. tb_board for post data and tb_member for member data. tb_recCheck is for checking user id whether they recommend the specific post.
 
+## Need to add
+Manager account should be able to delete any posts.
+Adding Comment function would be amazing if it is possible.
