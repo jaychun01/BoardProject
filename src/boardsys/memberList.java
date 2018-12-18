@@ -1,3 +1,4 @@
+//Membership management Panel
 package boardsys;
 
 import javax.swing.*;
@@ -40,7 +41,7 @@ public class memberList extends JFrame {
 	memberList mList;
 	
 	public memberList() {
-		super("회원관리 프로그램  v0.1.1");
+		super("management");
 		cols = getColumn();
 		database db = new database();
 		v = db.getMemberList();

@@ -1,3 +1,4 @@
+//Panel for listing post
 package boardsys;
 import javax.swing.*;
 import javax.swing.event.*;

@@ -1,3 +1,4 @@
+//Sign in panel
 package boardsys;
 
 import javax.swing.*;

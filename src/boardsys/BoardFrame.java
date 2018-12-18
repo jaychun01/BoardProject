@@ -1,3 +1,4 @@
+//Frame for PostList & Postcontents
 package boardsys;
 import javax.swing.*;
 import javax.swing.event.*;

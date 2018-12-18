@@ -1,3 +1,4 @@
+//Sign up panel
 package boardsys;
 
 import javax.swing.*;
@@ -223,6 +224,7 @@ public class board2 extends JFrame {
 							boolean ok = db.insertMember(dto); //데이터베이스 삽입
 							if (ok) {
 								JOptionPane.showMessageDialog(p, "가입이 완료되었습니다.");
+								mList.jTableRefresh();
 								dispose();
 							}else {
 								JOptionPane.showMessageDialog(p, "가입이 정상적으로 처리되지 않았습니다.");

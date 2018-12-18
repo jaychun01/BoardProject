@@ -1,3 +1,4 @@
+//Database for member
 package boardsys;
 
 import java.sql.Connection;

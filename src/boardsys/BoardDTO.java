@@ -1,3 +1,4 @@
+//Data type for post
 package boardsys;
 
 public class BoardDTO {

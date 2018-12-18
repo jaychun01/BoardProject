@@ -1,3 +1,4 @@
+//Data type for member.
 package boardsys;
 
 public class MemberDTO {
