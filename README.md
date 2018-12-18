@@ -50,5 +50,5 @@ User can recommend the post, and the count will automatically increase. Recommen
 Database is built by MySQL. Table schema is on the above. tb_board for post data and tb_member for member data. tb_recCheck is for checking user id whether they recommend the specific post.
 
 ## Need to add
-Manager account should be able to delete any posts.
+Manager account should be able to delete any posts.  
 Adding Comment function would be amazing if it is possible.
